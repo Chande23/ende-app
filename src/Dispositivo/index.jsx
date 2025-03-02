@@ -21,7 +21,7 @@ const DispositivoPotencia = ({ divida }) => {
   // Função para verificar se a dívida foi incrementada
   const verificarIncremento = async () => {
     try {
-      const response = await fetch(`http://localhost:5000/divida/1/incrementada`); // Substitua 1 pelo ID da dívida
+      const response = await fetch(`https://ende-api.onrender.com/divida/1/incrementada`); // Substitua 1 pelo ID da dívida
       const data = await response.json();
 
       if (data.incrementada) {

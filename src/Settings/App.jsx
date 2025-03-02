@@ -13,7 +13,7 @@ const App = () => {
   // 🔹 Função para buscar a dívida no servidor
   const fetchDivida = async () => {
     try {
-      const response = await fetch(`http://localhost:5000/divida/${id}`);
+      const response = await fetch(`https://ende-api.onrender.com/divida/${id}`);
       const data = await response.json();
       setDivida(data.divida);
     } catch (error) {
@@ -24,9 +24,7 @@ const App = () => {
   // 🔹 Função para buscar o histórico de pagamentos
   const fetchHistorico = async () => {
     try {
-      const response = await fetch(
-        `http://localhost:5000/historico-pagamentos/${id}`
-      );
+      const response = await fetch(`https://ende-api.onrender.com/historico-pagamentos/${id}`);
       const data = await response.json();
       setHistorico(data.historico);
     } catch (error) {
@@ -52,7 +50,7 @@ const App = () => {
 
     try {
       const response = await fetch(
-        `http://localhost:5000/divida/${id}/subtrair`,
+        `https://ende-api.onrender.com/divida/${id}/subtrair`,
         {
           method: "POST",
           headers: {
