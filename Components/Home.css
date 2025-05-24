@@ -145,7 +145,6 @@
   
   /* Responsividade */
   @media (max-width: 768px) {
-<<<<<<< HEAD
     h1 {
       font-size: 1.8rem;
     }
@@ -156,11 +155,6 @@
   
     .slideshow {
       height: 250px;
-=======
-    .slideshow {
-      max-width: 100%;
-      height: 300px;
->>>>>>> 0c36741b6d52b87d6b12b317ae75602a424b6c45
     }
   
     .thumbnails img {
@@ -168,7 +162,6 @@
       height: 45px;
     }
   
-<<<<<<< HEAD
     .features h2 {
       font-size: 1.5rem;
     }
@@ -179,10 +172,6 @@
   
     .feature-icon {
       font-size: 1.5rem;
-=======
-    .features-grid {
-      grid-template-columns: 1fr;
->>>>>>> 0c36741b6d52b87d6b12b317ae75602a424b6c45
     }
   }
   

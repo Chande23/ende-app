@@ -24,7 +24,6 @@ body {
 /* REDUÇÃO RADICAL PARA MOBILE */
 @media (max-width: 768px) {
   body {
-<<<<<<< HEAD
     padding: 10px !important;
     zoom: 0.9; /* Redução global de 10% (era 0.7) */
   }
@@ -32,20 +31,10 @@ body {
   .App {
     padding: 10px !important;
     gap: 15px !important;
-=======
-    padding: 5px !important;
-    zoom: 0.7; /* Redução global de 30% */
-  }
-
-  .App {
-    padding: 0 !important;
-    gap: 8px !important;
->>>>>>> 0c36741b6d52b87d6b12b317ae75602a424b6c45
     max-width: 100% !important;
   }
 
   .container, .historico-container {
-<<<<<<< HEAD
     padding: 12px !important;
     border-radius: 10px !important;
     max-width: 100% !important;
@@ -90,59 +79,12 @@ body {
   .historico-container li {
     font-size: 0.8rem !important;
     margin-bottom: 5px !important;
-=======
-    padding: 6px !important;
-    border-radius: 8px !important;
-    max-width: 100% !important;
-    margin: 4px auto !important;
-    backdrop-filter: blur(3px) !important;
-  }
-
-  .titulo {
-    font-size: 0.9rem !important;
-    padding: 4px !important;
-    margin: 0 !important;
-  }
-
-  .divida-header h2 {
-    font-size: 0.8rem !important;
-    margin: 0 !important;
-  }
-
-  .valor-divida {
-    font-size: 0.9rem !important;
-    margin: 2px 0 !important;
-  }
-
-  .botao-olho {
-    font-size: 0.8rem !important;
-    padding: 0 !important;
-  }
-
-  input, .botao-subtrair {
-    padding: 4px 6px !important;
-    font-size: 0.7rem !important;
-    min-height: 24px !important;
-    margin-bottom: 6px !important;
-    border-radius: 4px !important;
-  }
-
-  .historico-container h2 {
-    font-size: 0.8rem !important;
-    margin-bottom: 6px !important;
-  }
-
-  .historico-container li {
-    font-size: 0.65rem !important;
-    margin-bottom: 3px !important;
->>>>>>> 0c36741b6d52b87d6b12b317ae75602a424b6c45
   }
 }
 
 /* Ajuste para telas minúsculas (<400px) */
 @media (max-width: 400px) {
   body {
-<<<<<<< HEAD
     zoom: 0.85; /* Redução global de 15% (era 0.6) */
   }
 
@@ -152,28 +94,13 @@ body {
 
   input, .botao-subtrair {
     min-height: 28px !important;
-=======
-    zoom: 0.6; /* Redução global de 40% */
-  }
-
-  .container, .historico-container {
-    padding: 4px !important;
-  }
-
-  input, .botao-subtrair {
-    min-height: 20px !important;
->>>>>>> 0c36741b6d52b87d6b12b317ae75602a424b6c45
   }
 }
 
 /* Orientação paisagem - layout super compacto */
 @media (orientation: landscape) and (max-width: 768px) {
   body {
-<<<<<<< HEAD
     zoom: 0.8; /* Redução global de 20% (era 0.5) */
-=======
-    zoom: 0.5; /* Redução global de 50% */
->>>>>>> 0c36741b6d52b87d6b12b317ae75602a424b6c45
   }
 
   .App {
@@ -184,17 +111,6 @@ body {
 
   .container, .historico-container {
     width: 48% !important;
-<<<<<<< HEAD
     margin: 5px !important;
   }
-=======
-    margin: 2px !important;
-  }
-}
-
-/* Garante que os elementos não ultrapassem a tela */
-html, body {
-  overflow-x: hidden;
-  max-width: 100vw;
->>>>>>> 0c36741b6d52b87d6b12b317ae75602a424b6c45
 }

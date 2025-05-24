@@ -36,7 +36,6 @@
   .historico-tabela tr:hover {
     background-color: #ddd;
   }
-<<<<<<< HEAD
 
   @media (max-width: 768px) {
     .historico-container {
@@ -53,6 +52,4 @@
       font-size: 0.9rem;
     }
   }
-=======
->>>>>>> 0c36741b6d52b87d6b12b317ae75602a424b6c45
   
