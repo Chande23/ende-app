@@ -1,0 +1,55 @@
+
+.historico-container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .historico-titulo {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .historico-tabela {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .historico-tabela th,
+  .historico-tabela td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .historico-tabela th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .historico-tabela tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .historico-tabela tr:hover {
+    background-color: #ddd;
+  }
+
+  @media (max-width: 768px) {
+    .historico-container {
+      width: 95%;
+    }
+  
+    .historico-titulo {
+      font-size: 1.2rem;
+    }
+  
+    .historico-tabela th,
+    .historico-tabela td {
+      padding: 8px;
+      font-size: 0.9rem;
+    }
+  }
+  

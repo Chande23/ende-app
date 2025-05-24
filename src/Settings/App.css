@@ -1,0 +1,116 @@
+/* Estilos base (Desktop) */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #1e1e2f, #2a2a40);
+  color: #fff;
+  min-height: 100vh;
+}
+
+/* Container principal - versão desktop */
+.container, .historico-container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* REDUÇÃO RADICAL PARA MOBILE */
+@media (max-width: 768px) {
+  body {
+    padding: 10px !important;
+    zoom: 0.9; /* Redução global de 10% (era 0.7) */
+  }
+
+  .App {
+    padding: 10px !important;
+    gap: 15px !important;
+    max-width: 100% !important;
+  }
+
+  .container, .historico-container {
+    padding: 12px !important;
+    border-radius: 10px !important;
+    max-width: 100% !important;
+    margin: 10px auto !important;
+    backdrop-filter: blur(5px) !important;
+  }
+
+  .titulo {
+    font-size: 1.1rem !important;
+    padding: 8px !important;
+    margin: 5px 0 !important;
+  }
+
+  .divida-header h2 {
+    font-size: 1rem !important;
+    margin: 5px 0 !important;
+  }
+
+  .valor-divida {
+    font-size: 1.1rem !important;
+    margin: 5px 0 !important;
+  }
+
+  .botao-olho {
+    font-size: 1rem !important;
+    padding: 5px !important;
+  }
+
+  input, .botao-subtrair {
+    padding: 8px 10px !important;
+    font-size: 0.9rem !important;
+    min-height: 32px !important;
+    margin-bottom: 10px !important;
+    border-radius: 6px !important;
+  }
+
+  .historico-container h2 {
+    font-size: 1rem !important;
+    margin-bottom: 10px !important;
+  }
+
+  .historico-container li {
+    font-size: 0.8rem !important;
+    margin-bottom: 5px !important;
+  }
+}
+
+/* Ajuste para telas minúsculas (<400px) */
+@media (max-width: 400px) {
+  body {
+    zoom: 0.85; /* Redução global de 15% (era 0.6) */
+  }
+
+  .container, .historico-container {
+    padding: 10px !important;
+  }
+
+  input, .botao-subtrair {
+    min-height: 28px !important;
+  }
+}
+
+/* Orientação paisagem - layout super compacto */
+@media (orientation: landscape) and (max-width: 768px) {
+  body {
+    zoom: 0.8; /* Redução global de 20% (era 0.5) */
+  }
+
+  .App {
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+  }
+
+  .container, .historico-container {
+    width: 48% !important;
+    margin: 5px !important;
+  }
+}
